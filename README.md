@@ -37,9 +37,9 @@ The system consists of three main roles:
 **Prototype**
 ![connections](https://github.com/user-attachments/assets/8ec95743-617c-47e0-ad3e-40b1353979fe)
 
-[Rasberry-pi-output/Before Rfid tapping](pi-outputs)
+[Rasberry-pi-output/Before Rfid tapping](pi-outputs/Berfore-tapping.jpg)
 
-[Rasberry-pi-output/After Rfid tapping](pi-outputs)
+[Rasberry-pi-output/After Rfid tapping](pi-outputs/After-tapping.jpg)
 
 # Results
 
