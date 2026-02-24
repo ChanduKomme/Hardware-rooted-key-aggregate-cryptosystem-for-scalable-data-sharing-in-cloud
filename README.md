@@ -50,10 +50,14 @@ The system consists of three main roles:
 ---
 <img width="1101" height="649" alt="encrypt" src="https://github.com/user-attachments/assets/c524252a-ea81-4bb8-adb6-1914e55f4ab2" />
 
+[pi-output/Encryption](Results/Encryption.png)
+
 
 **Deryption**
 ---
 <img width="1098" height="211" alt="dcrypt" src="https://github.com/user-attachments/assets/8fca2c20-cf02-4d22-a121-f160274e13e8" />
+
+[Rasberry-pi-output/Decryption](Results/Decryption.png)
 
 ## Security Model
 
