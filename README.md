@@ -37,9 +37,9 @@ The system consists of three main roles:
 **Prototype**
 ![connections](https://github.com/user-attachments/assets/8ec95743-617c-47e0-ad3e-40b1353979fe)
 
-[Rasberry-pi-output/Before Rfid tapping](Results/After-tapping.heic)
+[Rasberry-pi-output/Before Rfid tapping](Results/pi-outputs)
 
-[Rasberry-pi-output/After Rfid tapping](Results/https://github.com/ChanduKomme/Hardware-rooted-key-aggregate-cryptosystem-for-scalable-data-sharing-in-cloud/blob/main/Results/After%20tapping.heic)
+[Rasberry-pi-output/After Rfid tapping](Results/hpi-outputs)
 
 # Results
 
