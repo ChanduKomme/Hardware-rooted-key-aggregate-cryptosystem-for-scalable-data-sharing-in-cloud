@@ -39,7 +39,7 @@ The system consists of three main roles:
 
 [Rasberry-pi-output/Before Rfid tapping](Results/pi-outputs)
 
-[Rasberry-pi-output/After Rfid tapping](Results/hpi-outputs)
+[Rasberry-pi-output/After Rfid tapping](Results/pi-outputs)
 
 # Results
 
