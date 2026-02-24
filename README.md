@@ -1,5 +1,10 @@
 # Hardware-Rooted KAC for Scalable Data Sharing in Cloud 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Platform](https://img.shields.io/badge/Platform-KAC-blue)
+[![Raseberry Pi](https://img.shields.io/badge/RaseberryPi-Wiki-red.svg)](https://www.raspberrypi.org/)
+
+
 *A secure, device-bound data-sharing system for IoT environments using Raspberry Pi and Key-Aggregate Cryptosystem (KAC).*
 ##  Project Overview
 This project implements a hardware-rooted, device-bound data-sharing system designed for scalable cloud collaboration. It solves the problem of secure data sharing by ensuring that decryption occurs only at the "edge" (the device), requires physical user presence, and strictly controls which data classes a device can access.
@@ -32,13 +37,7 @@ The system consists of three main roles:
 **Prototype**
 ![connections](https://github.com/user-attachments/assets/8ec95743-617c-47e0-ad3e-40b1353979fe)
 
-## Security Model
 
-The system architecture prioritizes a "blind" cloud and tamper-evident delivery:
-
-* **No Re-Encryption Needed:** Policy agility is achieved by rotating a single aggregate key.Administrators can switch policies or revoke access without the need to re-encrypt stored data.
-* **Integrity:** The system uses AES-GCM for authenticated encryption.Any modification to the header or ciphertext results in a tag failure, ensuring no corrupted plaintext is ever released or displayed.
-* **Privacy:** The cloud provider sees only opaque ciphertext and minimal JSON headers[cite: 11, 208]. [cite_start]It has no access to keys or plaintext bytes, reducing the impact of a potential cloud breach.
 
 # Results
 
@@ -55,4 +54,21 @@ The system architecture prioritizes a "blind" cloud and tamper-evident delivery:
 **Deryption**
 ---
 <img width="1098" height="211" alt="dcrypt" src="https://github.com/user-attachments/assets/8fca2c20-cf02-4d22-a121-f160274e13e8" />
+
+## Security Model
+
+The system architecture prioritizes a "blind" cloud and tamper-evident delivery:
+
+* **No Re-Encryption Needed:** Policy agility is achieved by rotating a single aggregate key.Administrators can switch policies or revoke access without the need to re-encrypt stored data.
+* **Integrity:** The system uses AES-GCM for authenticated encryption.Any modification to the header or ciphertext results in a tag failure, ensuring no corrupted plaintext is ever released or displayed.
+* **Privacy:** The cloud provider sees only opaque ciphertext and minimal JSON headers.It has no access to keys or plaintext bytes, reducing the impact of a potential cloud breach.
+
+
+## Future Work
+
+* **Post-Quantum Migration:** Hybridizing headers to support post-quantum KEMs and signatures, allowing the system to retain existing roles and workflows .
+* **Attestation:** Implementing server-verified default attestation and "policy-as-code" for boot security, including measured boot and anti-rollback mechanisms .
+* **Header Optimization:** Reducing header size and compression complexity for environments where mandatory TLS is already provided .
+
+
 
