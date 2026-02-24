@@ -1,0 +1,9 @@
+adafruit-blinka
+adafruit-circuitpython-atecc
+adafruit-circuitpython-bme280
+luma.oled
+pillow
+mfrc522
+RPi.GPIO
+pycryptodomex
+requests
