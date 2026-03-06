@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+
 import os, json, argparse, sys, time
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
-# Optional OLED + LEDs
+
 OLED_OK = False
 try:
     from hardware_io import show, LED_GREEN, LED_RED
