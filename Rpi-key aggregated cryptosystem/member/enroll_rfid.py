@@ -19,7 +19,7 @@ AUTH_FILE = os.path.join(os.path.dirname(__file__), "authorized_tags.json")
 
 def _load():
     if os.path.exists(AUTH_FILE):
-        try:
+        try:                       
             d = json.load(open(AUTH_FILE))
             return {int(k): v for k, v in d.items()}
         except Exception:
